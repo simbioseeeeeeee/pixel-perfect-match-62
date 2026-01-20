@@ -1,4 +1,5 @@
 import { LINKS } from "@/lib/constants";
+import simbioseLogo from "@/assets/logo-simbiose.png";
 
 export const Footer = () => {
   return (
@@ -7,11 +8,12 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-5">
-              <div className="w-11 h-11 bg-gradient-to-br from-primary to-neon-dim rounded-xl flex items-center justify-center font-extrabold text-primary-foreground text-[22px]">
-                S
-              </div>
-              <span className="font-bold text-[22px]">Simbiose Digital</span>
+            <div className="mb-5">
+              <img 
+                src={simbioseLogo} 
+                alt="Simbiose Digital" 
+                className="h-[100px] w-auto"
+              />
             </div>
             <p className="text-[15px] text-muted-foreground leading-relaxed max-w-[320px]">
               Unindo tecnologia e estratégia para transformar a forma como empresas vendem e atendem seus clientes.
