@@ -8,6 +8,7 @@ import msiLogo from "@/assets/clients/msi.webp";
 import confiarLogo from "@/assets/clients/confiar.png";
 import quemDisseApeLogo from "@/assets/clients/quem-disse-ape.png";
 import rgimoveisLogo from "@/assets/clients/rgimoveis.webp";
+import luizRenatoLogo from "@/assets/clients/luiz-renato.png";
 
 const CLIENT_LOGOS = [
   { src: trindadeLogo, alt: "Trindade Soluções Imobiliárias" },
@@ -20,25 +21,37 @@ const CLIENT_LOGOS = [
   { src: confiarLogo, alt: "Confiar Imóveis" },
   { src: quemDisseApeLogo, alt: "Quem Disse Apê" },
   { src: rgimoveisLogo, alt: "RG Imóveis" },
+  { src: luizRenatoLogo, alt: "Luiz Renato Imóveis" },
 ];
 
 export const Clients = () => {
+  // Duplicate logos for seamless infinite scroll
+  const duplicatedLogos = [...CLIENT_LOGOS, ...CLIENT_LOGOS];
+
   return (
-    <section className="bg-dark-2 py-12 border-y border-foreground/5">
-      <div className="container">
-        <p className="text-sm text-foreground/70 text-center uppercase tracking-[0.15em] mb-8">
+    <section className="bg-dark-2 py-12 border-y border-foreground/5 overflow-hidden">
+      <div className="container mb-8">
+        <p className="text-sm text-foreground/70 text-center uppercase tracking-[0.15em]">
           +50 empresas já automatizaram com a Simbiose
         </p>
-        <div className="flex flex-wrap gap-x-8 gap-y-6 items-center justify-center">
-          {CLIENT_LOGOS.map((client, i) => (
+      </div>
+      
+      <div className="relative">
+        {/* Gradient masks */}
+        <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-dark-2 to-transparent z-10" />
+        <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-dark-2 to-transparent z-10" />
+        
+        {/* Scrolling container */}
+        <div className="flex animate-scroll">
+          {duplicatedLogos.map((client, i) => (
             <div 
               key={i} 
-              className="h-12 md:h-14 flex items-center justify-center bg-white/90 rounded-lg px-4 py-2 hover:bg-white transition-all"
+              className="flex-shrink-0 h-14 mx-4 flex items-center justify-center bg-white/90 rounded-lg px-5 py-2"
             >
               <img 
                 src={client.src} 
                 alt={client.alt}
-                className="h-8 md:h-10 w-auto max-w-[120px] md:max-w-[140px] object-contain"
+                className="h-10 w-auto max-w-[130px] object-contain"
               />
             </div>
           ))}

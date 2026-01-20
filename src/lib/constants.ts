@@ -150,9 +150,9 @@ export const TESTIMONIALS = [
     role: 'Proprietário - Quem Disse Apê!?' 
   },
   { 
-    quote: 'Ganhei clareza nos processos e aumento consistente nas conversões. Recomendo de olhos fechados.', 
-    name: 'Dyego Cavalcante', 
-    role: 'Proprietário - Big House Imobi' 
+    quote: 'A automação da Simbiose transformou nosso atendimento. Agora conseguimos dar atenção a cada cliente sem perder nenhuma oportunidade.', 
+    name: 'Luiz Renato', 
+    role: 'Proprietário - Luiz Renato Imóveis' 
   }
 ];
 
