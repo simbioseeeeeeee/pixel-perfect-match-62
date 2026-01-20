@@ -11,7 +11,7 @@ export const Navbar = () => {
           <img 
             src={simbioseLogo} 
             alt="Simbiose Digital" 
-            className="h-10 w-auto"
+            className="h-12 md:h-14 w-auto"
           />
         </a>
 
