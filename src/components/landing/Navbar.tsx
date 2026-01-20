@@ -1,5 +1,6 @@
 import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { LINKS } from "@/lib/constants";
+import simbioseLogo from "@/assets/logo-simbiose.png";
 
 export const Navbar = () => {
   return (
@@ -7,10 +8,11 @@ export const Navbar = () => {
       <div className="container flex justify-between items-center">
         {/* Logo */}
         <a href="/" className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-gradient-to-br from-neon to-neon-dim rounded-lg flex items-center justify-center font-extrabold text-primary-foreground text-xl">
-            S
-          </div>
-          <span className="font-bold text-xl">Simbiose Digital</span>
+          <img 
+            src={simbioseLogo} 
+            alt="Simbiose Digital" 
+            className="h-10 w-auto"
+          />
         </a>
 
         {/* Navigation Links */}
