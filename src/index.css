@@ -25,7 +25,7 @@
     --secondary-foreground: 0 0% 100%;
 
     --muted: 240 10% 10%;
-    --muted-foreground: 240 10% 55%;
+    --muted-foreground: 240 10% 70%;
 
     --accent: 152 100% 50%;
     --accent-foreground: 240 20% 2%;
@@ -45,8 +45,8 @@
     --dark-1: 240 20% 2%;
     --dark-2: 240 15% 4%;
     --dark-3: 240 12% 7%;
-    --gray: 240 10% 46%;
-    --gray-light: 240 8% 65%;
+    --gray: 240 10% 60%;
+    --gray-light: 240 8% 75%;
     --purple: 238 84% 67%;
     --whatsapp: 142 70% 49%;
     --whatsapp-dark: 162 63% 36%;
