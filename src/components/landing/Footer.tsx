@@ -30,7 +30,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#solucao" className="text-[15px] text-muted-foreground hover:text-foreground transition-colors">
+                <a href={LINKS.iadTrafego} target="_blank" rel="noopener noreferrer" className="text-[15px] text-muted-foreground hover:text-foreground transition-colors">
                   IAD - Tráfego
                 </a>
               </li>
