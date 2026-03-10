@@ -14,7 +14,7 @@ export const CTA = () => {
         ⚡ Atendimento instantâneo • 🤖 IA agenda sua reunião • 📅 Sem burocracia
       </p>
       <a
-        href={LINKS.whatsappLIA}
+        href={LINKS.agendamento}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-3 px-12 py-6 text-xl font-semibold bg-gradient-to-r from-whatsapp to-whatsapp-dark text-white rounded-[14px] hover:-translate-y-0.5 hover:shadow-whatsapp transition-all animate-glow"

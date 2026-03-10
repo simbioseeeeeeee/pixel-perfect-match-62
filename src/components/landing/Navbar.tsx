@@ -52,7 +52,7 @@ export const Navbar = () => {
             Acessar Plataforma
           </a>
           <a
-            href={LINKS.whatsapp}
+            href={LINKS.agendamento}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 px-6 py-3 text-sm font-semibold bg-gradient-to-r from-whatsapp to-whatsapp-dark text-white rounded-lg hover:-translate-y-0.5 hover:shadow-whatsapp transition-all"
@@ -63,7 +63,7 @@ export const Navbar = () => {
 
         {/* Mobile CTA */}
         <a
-          href={LINKS.whatsapp}
+          href={LINKS.agendamento}
           target="_blank"
           rel="noopener noreferrer"
           className="lg:hidden flex items-center gap-2 px-4 py-2 text-sm font-semibold bg-gradient-to-r from-whatsapp to-whatsapp-dark text-white rounded-lg"
