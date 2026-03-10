@@ -1,5 +1,7 @@
 export const LINKS = {
   agendamento: "https://b24-k0aly4.bitrix24.site/crm_form_2ctnp/",
+  iadTrafego: "https://encontre.simbiosedigital.com/",
+  roadmap: "https://roadmap.simbiosedigital.com/",
   whatsapp: "https://wa.me/5519993835403?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20automa%C3%A7%C3%A3o%20de%20atendimento%20da%20Simbiose%20Digital.",
   whatsappLIA: "https://wa.me/5519993835403?text=Ol%C3%A1!%20Quero%20falar%20com%20a%20LIA%20e%20conhecer%20a%20Simbiose%20Digital.",
   plataforma: "https://chat.simbiosedigital.com/login",
