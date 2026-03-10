@@ -39,7 +39,7 @@ const Cases = () => {
                 A Confiar Imóveis enfrentava um problema comum: leads entravam pelo WhatsApp, mas a equipe não conseguia atender a todos a tempo. Com a implementação da LIA, transformaram completamente sua operação.
               </p>
               <a
-                href={LINKS.whatsappCases}
+                href={LINKS.agendamento}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-neon to-neon-dim text-background font-bold rounded-xl hover:shadow-neon hover:-translate-y-0.5 transition-all"
