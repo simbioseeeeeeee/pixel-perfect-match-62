@@ -46,7 +46,7 @@ export const Solutions = () => {
           </div>
 
           {/* IAD Card */}
-          <div className="relative p-11 rounded-3xl glass overflow-hidden">
+          <a href={LINKS.iadTrafego} target="_blank" rel="noopener noreferrer" className="relative p-11 rounded-3xl glass overflow-hidden group hover:border-purple/30 transition-all">
             {/* Glow Background */}
             <div className="absolute -top-1/2 -right-1/2 w-[300px] h-[300px] rounded-full bg-[radial-gradient(circle,hsl(238_84%_67%/0.1)_0%,transparent_70%)] pointer-events-none" />
             
@@ -71,7 +71,7 @@ export const Solutions = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </a>
         </div>
 
         {/* CTA */}
