@@ -61,6 +61,11 @@ export const Footer = () => {
                   Blog
                 </a>
               </li>
+              <li>
+                <a href={LINKS.roadmap} target="_blank" rel="noopener noreferrer" className="text-[15px] text-muted-foreground hover:text-foreground transition-colors">
+                  Roadmap
+                </a>
+              </li>
             </ul>
           </div>
 
