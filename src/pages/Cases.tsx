@@ -124,7 +124,7 @@ const Cases = () => {
             Converse com nossa equipe e descubra como podemos transformar seu atendimento em resultados reais.
           </p>
           <a
-            href={LINKS.whatsappCases}
+            href={LINKS.agendamento}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-5 bg-gradient-to-r from-whatsapp to-whatsapp-hover text-white font-bold text-lg rounded-xl shadow-whatsapp hover:shadow-[0_15px_40px_-10px_rgba(37,211,102,0.6)] hover:-translate-y-1 transition-all"

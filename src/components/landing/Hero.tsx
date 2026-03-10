@@ -27,7 +27,7 @@ export const Hero = () => {
           {/* CTA */}
           <div className="flex flex-wrap items-center gap-4">
             <a
-              href={LINKS.whatsapp}
+              href={LINKS.agendamento}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-9 py-[18px] text-[17px] font-semibold bg-gradient-to-r from-whatsapp to-whatsapp-dark text-white rounded-[14px] hover:-translate-y-0.5 hover:shadow-whatsapp transition-all animate-glow"
