@@ -1,8 +1,7 @@
 export const LINKS = {
+  agendamento: "https://b24-k0aly4.bitrix24.site/crm_form_2ctnp/",
   whatsapp: "https://wa.me/5519993835403?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20automa%C3%A7%C3%A3o%20de%20atendimento%20da%20Simbiose%20Digital.",
-  whatsappSolucoes: "https://wa.me/5519993835403?text=Ol%C3%A1!%20Quero%20conhecer%20as%20solu%C3%A7%C3%B5es%20da%20Simbiose%20Digital.",
   whatsappLIA: "https://wa.me/5519993835403?text=Ol%C3%A1!%20Quero%20falar%20com%20a%20LIA%20e%20conhecer%20a%20Simbiose%20Digital.",
-  whatsappCases: "https://wa.me/5519993835403?text=Ol%C3%A1!%20Vi%20os%20cases%20e%20quero%20saber%20mais%20sobre%20a%20Simbiose%20Digital.",
   plataforma: "https://chat.simbiosedigital.com/login",
   termos: "https://privacidade.simbiosedigital.com/termosdeuso",
   privacidade: "https://privacidade.simbiosedigital.com/politicadeprivacidade",
