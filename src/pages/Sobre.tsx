@@ -37,11 +37,11 @@ const Sobre = () => {
                 <span className="text-foreground font-medium">empresas perdem milhões de reais</span> por ano simplesmente por não conseguirem atender seus leads a tempo.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed mb-5">
-                Fundada por profissionais com experiência em tecnologia e vendas, desenvolvemos a{" "}
-                <span className="text-foreground font-medium">LIA (Lead Intelligence Automation)</span> - uma assistente de IA que revoluciona o atendimento via WhatsApp.
+                Com mais de <span className="text-foreground font-medium">8 anos de experiência</span> no mercado imobiliário, desenvolvemos a{" "}
+                <span className="text-foreground font-medium">LIA (Lead Intelligence Automation)</span> — nossa assistente de IA que revoluciona o atendimento e vendas via WhatsApp.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Hoje, ajudamos mais de <span className="text-foreground font-medium">50 empresas</span> a automatizar seus processos de atendimento e vendas, gerando milhões em novas oportunidades de negócio.
+                Hoje, já atendemos mais de <span className="text-foreground font-medium">400 clientes</span> e participamos de mais de <span className="text-foreground font-medium">R$ 5 bilhões em VGV</span>, unindo estratégias comerciais, marketing e inteligência artificial para negócios.
               </p>
             </div>
             <div className="glass-card rounded-3xl p-12 text-center">
