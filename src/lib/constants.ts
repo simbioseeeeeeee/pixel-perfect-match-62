@@ -142,18 +142,18 @@ export const STEPS = [
 export const TESTIMONIALS = [
   { 
     quote: 'Nosso funil duplicou em oportunidades com a automação Simbiose. A LIA atende todos os leads instantaneamente, 24 horas por dia.', 
-    name: 'Iago', 
-    role: 'Proprietário - Confiar Imóveis' 
+    name: 'Confiar Imóveis', 
+    role: 'Imobiliária' 
   },
   { 
     quote: 'Foi nossa virada de chave. Antes perdíamos leads por demora, agora cada contato é atendido em segundos.', 
-    name: 'Marcos Paulo', 
-    role: 'Proprietário - Quem Disse Apê!?' 
+    name: 'Quem Disse Apê!?', 
+    role: 'Imobiliária' 
   },
   { 
     quote: 'A automação da Simbiose transformou nosso atendimento. Agora conseguimos dar atenção a cada cliente sem perder nenhuma oportunidade.', 
-    name: 'Luiz Renato', 
-    role: 'Proprietário - Luiz Renato Imóveis' 
+    name: 'Luiz Renato Imóveis', 
+    role: 'Imobiliária' 
   }
 ];
 
