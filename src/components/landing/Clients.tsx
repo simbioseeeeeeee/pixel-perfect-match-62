@@ -1,7 +1,7 @@
 const TRUST_STATS = [
-  { value: '50+', label: 'Empresas Atendidas' },
-  { value: '2.4M+', label: 'Atendimentos Realizados' },
-  { value: '67%', label: 'Aumento Médio em Conversão' },
+  { value: '400+', label: 'Clientes Atendidos' },
+  { value: 'R$ 5 Bi', label: 'em VGV Gerado' },
+  { value: '8+', label: 'Anos de Experiência' },
   { value: '0.3s', label: 'Tempo Médio de Resposta' },
 ];
 

@@ -73,9 +73,9 @@ export const VALUES = [
 ];
 
 export const ABOUT_STATS = [
-  { value: '2.4M+', label: 'Atendimentos realizados' },
-  { value: '50+', label: 'Empresas atendidas' },
-  { value: '67%', label: 'Aumento médio em conversão' },
+  { value: '400+', label: 'Clientes atendidos' },
+  { value: 'R$ 5 Bi', label: 'em VGV gerado' },
+  { value: '8+', label: 'Anos de experiência' },
   { value: '0.3s', label: 'Tempo médio de resposta' }
 ];
 
@@ -158,8 +158,8 @@ export const TESTIMONIALS = [
 ];
 
 export const STATS = [
-  { value: '2.4M+', label: 'Atendimentos realizados' },
+  { value: '400+', label: 'Clientes atendidos' },
+  { value: 'R$ 5 Bi', label: 'em VGV gerado' },
   { value: '0.3s', label: 'Tempo médio de resposta' },
-  { value: '67%', label: 'Aumento em conversão' },
   { value: '24/7', label: 'Disponibilidade total' }
 ];
